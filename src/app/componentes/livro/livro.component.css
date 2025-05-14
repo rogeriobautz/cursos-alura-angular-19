@@ -11,8 +11,9 @@ section {
   overflow: hidden;
   padding-top: 16px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  margin-left: 64px;
   border-top: 24px solid;
+  /* margin-left: 64px; */
+  justify-self: center;
 }
 
 section .info-livro {

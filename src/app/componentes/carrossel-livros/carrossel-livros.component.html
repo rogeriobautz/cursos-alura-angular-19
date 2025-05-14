@@ -1,0 +1,12 @@
+<p-carousel
+  [value]="livros() || []"
+  [numVisible]="livrosPorPagina()"
+  [numScroll]="livrosPorPagina()"
+  [circular]="true"
+  [showNavigators]="rotativo"
+  [showIndicators]="rotativo"
+>
+<ng-template pTemplate="item" let-livro>
+    <app-livro [livro]="livro"></app-livro>
+  </ng-template>
+</p-carousel>
